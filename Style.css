@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #181818;
+    height: 3.5vh;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+li {
+    padding: 0px 12px;
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0px 13px;
+}
+
+.subheader {
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.subheader a {
+    color: #2997ff;
+}
+
+.black-space {
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+#iphone {
+    font-size: 204%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-weight: bold;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -.005em;
+}
+
+.iphone15pro {
+    background-color: black;
+    text-align: center;
+    font-size: 1.2em;
+    min-height: 45vh;
+    font-size: 170%;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -.004em;
+}
+
+
+#space {
+    margin-left: 50px;
+}
+
+.underline {
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+/* iphone15  */
+.iphone15container {
+    text-align: center;
+    position: relative;
+    background-color: #F5F5F7;
+    height: 8em;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.iphone15 {
+    color: black;
+    position: relative;
+    top: 37%;
+    font-size: 185%;
+    right: 1%;
+    font-weight: bold;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -.005em;
+}
+
+.i15lines {
+    color: black;
+    position: relative;
+    top: 35%;
+    font-size: 94%;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -.004em;
+}
+
+.learn-more15 {
+    position: relative;
+    top: 39%;
+    font-size: 68%;
+    left: 1%;
+}
+
+.buy15 {
+    position: relative;
+    top: 39%;
+    margin-left: 5%;
+    font-size: 68%;
+    right: 2%;
+}
+
+/* OTHER-PRODUCT */
+.other-product {
+    display: grid;
+    background-color: white;
+    height: 120vh;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1%;
+
+}
+
+@media screen and (max-width: 900px) {
+    .other-product {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+/* MacBook pro  */
+.Mac-Book-Pro {
+    background-color: brown;
+    position: relative;
+    font-size: 256%;
+    background-color: #FAFAFA;
+    cursor: pointer;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -.005em;
+    max-height: 60vh;
+}
+
+.Mac {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    right: 38%;
+    color: black;
+}
+
+.Mac-line {
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    font-size: 57%;
+    color: black;
+}
+
+.Mac-learn-more {
+    position: absolute;
+    top: 24%;
+    left: 41%;
+    font-size: 44%;
+}
+
+.Mac-buy {
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    font-size: 44%;
+}
+
+.Mac-img {
+    position: absolute;
+    top: 29%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Ipad  */
+.Ipad {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -.005em;
+    background-color: #FAFAFA;
+    position: relative;
+    font-size: 256%;
+    text-align: center;
+    cursor: pointer;
+    max-height: 60vh;
+}
+
+.ipad {
+    position: absolute;
+    top: 10%;
+    color: black;
+}
+
+.ipad-line {
+    position: absolute;
+    position: absolute;
+    top: 18%;
+    font-size: 57%;
+    right: 31%;
+    color: black;
+
+}
+
+.ipad-learn-more {
+    position: absolute;
+    top: 24%;
+    right: 45%;
+    font-size: 44%
+}
+
+.ipad-buy {
+    position: absolute;
+    top: 24%;
+    right: 35%;
+    font-size: 44%;
+
+}
+
+.ipad-img {
+    position: absolute;
+    top: 29%;
+    right: 0%;
+    width: 100%;
+    left: 5%;
+    object-fit: cover;
+}
+
+/* Airpods-Pro  */
+
+.Airpod-Pro {
+    background-color: black;
+    position: relative;
+    font-size: 256%;
+    text-align: center;
+    cursor: pointer;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -.005em;
+    max-height: 60vh;
+}
+
+.Airpods-Headline {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    font-size: 92%;
+}
+
+.Airpords-sub-heading {
+    position: absolute;
+    top: 18%;
+    left: 34%;
+    font-size: 52%;
+}
+
+.Airpords-learn-more {
+    position: absolute;
+    top: 24%;
+    left: 39%;
+    font-size: 44%;
+
+}
+
+.Airpords-Buy {
+    position: absolute;
+    top: 24%;
+    left: 53%;
+    font-size: 44%;
+
+}
+
+.Airpords-img {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .Home-pod  */
+
+.Home-pod {
+    background-color: #FAFAFA;
+    position: relative;
+    font-size: 256%;
+    text-align: center;
+    cursor: pointer;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -.005em;
+    max-height: 60vh;
+}
+
+.HomePod-Headline {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    font-size: 92%;
+}
+
+.HomePod-sub-heading {
+    position: absolute;
+    top: 18%;
+    left: 34%;
+    font-size: 52%;
+}
+
+.HomePod-learn-more {
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    font-size: 44%;
+
+}
+
+.HomePod-buy {
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    font-size: 44%;
+}
+
+.HomePod-img {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* footer  */
+
+footer {
+    background-color: #F5F5F7;
+    margin-top: 1em;
+}
+
+.footer-content {
+    height: 80vh;
+    border-color: rgba(0, 0, 0, 0.16);
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 17px;
+    letter-spacing: -0.01em;
+    line-height: 1.3333733333;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.offer-emi {
+    border-bottom: 1px solid
+}
+
+.footer-emi-option {
+    margin: 1% auto;
+    max-width: 980px;
+}
+
+.emi-example {
+    margin-top: 1%;
+}
+
+#other-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+section ul {
+    display: inline;
+}
+
+.footer-links {
+    display: block;
+}
+
+#other-links section ul li {
+    margin-bottom: 0.8em;
+    margin-left: 0%;
+}
+
+.footer-links {
+    font-weight: 600;
+    margin-inline-end: 20px;
+    outline: none;
+    padding-top: 24px;
+    margin-bottom: 12%;
+    font-size: 12px;
+}
+
+#other-links section ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.72);
+    font-size: 1em;
+}
+
+.more-way-to-shop {
+    margin-bottom: 16px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid
+}
+
+.more-way-to-shop span a {
+    color: rgb(0, 102, 204);
+}
+
+.privacy-term-policy-location {
+    position: relative;
+}
+
+.privacy-term-policy-location ul li a {
+    color: #181818;
+    text-decoration: none;
+}
+
+.privacy-term-policy-location .location a {
+    color: #181818;
+    text-decoration: none;
+}
+
+.copyright {
+    float: left;
+}
+
+.location a {
+    float: right;
+    position: relative;
+    top: -16px;
+}
